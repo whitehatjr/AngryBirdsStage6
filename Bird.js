@@ -9,5 +9,11 @@ class Bird extends BaseClass {
     //this.body.position.y = mouseY;
 
     super.display();
+    var position= [this.body.position.x, this.body.position.y];
+    this.trajectory.push(position);
+    for(var i=0; i<this.trajectory.length; i++)
+    {image(this.smokeImage, this.trajectory[i][0], this.trajectory[i][1]);
+     
+    }
   }
 }
