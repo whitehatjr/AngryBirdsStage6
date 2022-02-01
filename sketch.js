@@ -1,3 +1,17 @@
+var arr1=[1.2.3.4.5];
+console.log(arr1);
+var arr2=["giannah",4,true];
+console.log(arr2);
+var arr3=[[1,2],[2,3],[3,4]];
+console.log(arr3);
+//in order to access first element of the array
+console.log(arr3[0]);
+//accessing the second element of the first element of the array
+console.log(arr3[0][1]);
+arr3.push("whitehat");
+console.log(arr3);
+arr3.pop();
+console.log(arr3);
 const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
